@@ -1,0 +1,48 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #1c0e04;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+}
+
+.htmlInfo{
+    font-size: 19px;
+    color:#dcdcdc;
+    text-align: center;
+    font-weight: normal;
+    max-width: 800px;
+    margin: 50px auto 0;
+}
+
+.botaoPagina {
+    background-color: #1c0e04;
+    text-decoration: none;
+    color: #fff;
+    width: 150px; 
+    height: 50px; 
+    border-radius: 10px;
+    border: solid 1px;
+    font-size: 18px;  
+    display: flex;     
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+    transition: 0.3s;
+}
+
+.botaoPagina:hover {
+    cursor: pointer;
+    background-color: #5a351a;
+    transform: scale(1.1);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
